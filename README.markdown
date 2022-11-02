@@ -1,3 +1,16 @@
+
+This Git page contains a forked version of the Rice University Bulletin Board System (RUBBoS), a Bulletin Board Benchmark website built by ([Amza et al., 2002](https://ieeexplore.ieee.org/document/1226489)) and used as part of the academic work ‘Specification and Implementation of Dynamic Web Site Benchmarks’.  Apart from its server-side code, the unique feature of this Bulletin Board is its client emulator, which simulates real-world browsing patterns as per a predefined matrix. RUBBoS has been extensively used and cited in academic literature and is a benchmark to compare performance of web applications. However, the RUBBoS server-side application of RUBBoS was built in PHP and uses the MySQL library to connect to the database. This MySQL Library has been deprecated as of version 5.6 of PHP with MySQLi replacing it. 
+
+While the RUBBoS benchmark was well implemented, it was archived by the original authors. Michael Mior revived the PHP version of RUBBoS, from which these codes were forked. 
+
+This forked version is primarily designed for RPI64Box ([Dhuny, 2022](https://rpi64box.org); [Dhuny et al., 2022](https://www.sciencedirect.com/science/article/pii/S2590005622000479); [Dhuny and Mohamudally, 2022](https://www.sciencedirect.com/science/article/pii/S2665963822000872)) and similar microserver environments. RPI64Box is a project working towards creating portable and home-hosted 3-tiered LAMP solutions for microserver hardware like Raspberry Pi and alternatives.  
+
+To get started with RUBBoS on RPI64Box, download a version of RPI64Box first (https://rpi64box.com), then follow the steps below:
+
+	ansible codes
+
+Please note that the existing instructions as set by Mior is as below.
+
 The RUBBoS bulletin board benchmark was originally developed by the JMOB project. The homepage of the original implementation can be found [here](http://jmob.ow2.org/rubbos.html). While the benchmark is well-implemented, no updates have been made since 2005. This has caused some incompatibilities with newer versions of the software which RUBBoS depends on. This repository provides some updates to resolve these incompatibilities. For any questions, contact Michael Mior at <michael.mior@gmail.com>.
 
 
