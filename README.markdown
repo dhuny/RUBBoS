@@ -9,7 +9,7 @@ To get started with RUBBoS on RPI64Box, download a version of RPI64Box first (ht
 
 	ansible codes
 
-Please note that the existing instructions as set by Mior is as below.
+Please note that the existing instructions as set by Mior are as below.
 
 The RUBBoS bulletin board benchmark was originally developed by the JMOB project. The homepage of the original implementation can be found [here](http://jmob.ow2.org/rubbos.html). While the benchmark is well-implemented, no updates have been made since 2005. This has caused some incompatibilities with newer versions of the software which RUBBoS depends on. This repository provides some updates to resolve these incompatibilities. For any questions, contact Michael Mior at <michael.mior@gmail.com>.
 
