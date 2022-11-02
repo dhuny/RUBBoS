@@ -5,7 +5,8 @@ While the RUBBoS benchmark was well implemented, it was archived by the original
 
 This forked version is primarily designed for RPI64Box ([Dhuny, 2022](https://rpi64box.org); [Dhuny et al., 2022](https://www.sciencedirect.com/science/article/pii/S2590005622000479); [Dhuny and Mohamudally, 2022](https://www.sciencedirect.com/science/article/pii/S2665963822000872)) and similar microserver environments. RPI64Box is a project working towards creating portable and home-hosted 3-tiered LAMP solutions for microserver hardware like Raspberry Pi and alternatives.  
 
-To get started with RUBBoS on RPI64Box, download a version of RPI64Box first (https://rpi64box.com), then follow the steps below:
+To get started with RUBBoS on RPI64Box, download a version of RPI64Box first (https://rpi64box.com).
+Then follow steps 1 - 16 from RPI64Box Git ReadMe.
 
 	ansible codes
 
