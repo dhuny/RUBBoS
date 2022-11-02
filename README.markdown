@@ -10,7 +10,7 @@ Then follow steps 1 - 16 from RPI64Box Git ReadMe.
 
 Next execute the rubbos ansible script with the codes below
 
-	cd ~/RPI64Box && ansible-playbook testplans.yml
+	cd ~/RPI64Box && ansible-playbook rubbos.yml
 
 Please note that the existing instructions as set by Mior are as below.
 
