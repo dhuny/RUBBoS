@@ -8,7 +8,9 @@ This forked version is primarily designed for RPI64Box ([Dhuny, 2022](https://rp
 To get started with RUBBoS on RPI64Box, download a version of RPI64Box first (https://rpi64box.com).
 Then follow steps 1 - 16 from RPI64Box Git ReadMe.
 
-	ansible codes
+Next execute the rubbos ansible script with the codes below
+
+	cd ~/RPI64Box && ansible-playbook testplans.yml
 
 Please note that the existing instructions as set by Mior are as below.
 
