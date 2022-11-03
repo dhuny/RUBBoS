@@ -8,6 +8,10 @@ This forked version is primarily designed for RPI64Box ([Dhuny, 2022](https://rp
 To get started with RUBBoS on RPI64Box, download a version of RPI64Box first (https://rpi64box.com).
 Then follow steps 1 - 16 from [RPI64Box Git ReadMe](https://github.com/dhuny/RPI64Box).
 
+After that, update and upgrade the OS distribution to the latest with
+
+	sudo apt update && sudo apt upgrade -y
+
 Next execute the rubbos ansible script with the codes below
 
 	cd ~/RPI64Box && ansible-playbook rubbos.yml
