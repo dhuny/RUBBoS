@@ -8,9 +8,13 @@ This forked version is primarily designed for RPI64Box ([Dhuny, 2022](https://rp
 To get started with RUBBoS on RPI64Box, download a version of RPI64Box first (https://rpi64box.com).
 Then follow steps 1 - 16 from [RPI64Box Git ReadMe](https://github.com/dhuny/RPI64Box).
 
-After that, update and upgrade the OS distribution to the latest with
+After that, update the PPA and upgrade the OS distribution to the latest with
 
-	sudo apt update && sudo apt upgrade -y
+	sudo add-apt-repository ppa:ondrej/php -y && sudo apt update && sudo apt upgrade -y
+
+When prompted for update of www.conf, press N to use defaults
+
+	N
 
 Next execute the rubbos ansible script with the codes below
 
