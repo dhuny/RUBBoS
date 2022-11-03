@@ -15,6 +15,10 @@ After that, update and upgrade the OS distribution to the latest with
 Next execute the rubbos ansible script with the codes below
 
 	cd ~/RPI64Box && ansible-playbook rubbos.yml
+	
+After successfully executing the script, RUBBoS and associated dependent software should be installed on the RPI64Box. Please note that RUBBoS is meant to be tested in a local environment, and web security is not enforced. To test RUBBoS, please set a local DNS mapping for rubbos.rpi64box.home to go to the server ip address. For example, if tested on windows, open Notepad as Administrator, then navigate to  C:\Windows\System32\drivers\etc and open hosts. Then, add the following line
+	192.168.0.50	rubbos.rpi64box.home
+
 
 Please note that the existing instructions as set by Mior are as below.
 
